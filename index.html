@@ -25,7 +25,7 @@
               <tr style="padding:0px">
                 <td style="padding:2.5%;width:63%;vertical-align:middle">
                   <p style="text-align:center">
-                    <name>Stephen Lee</name>
+                    <p class="name" style="text-align: center;">Stephen Lee</p>
                   </p>
                   <p>Hi there! I'm a recent graduate from the Master's of Engineering program at UC Berkeley, where
                     I did a Visual Computing and Computer Graphics concentration in the department of Computer Science.
@@ -51,7 +51,7 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Projects</heading>
+                  <h2>Projects</h2>
                 </td>
               </tr>
             </tbody>
@@ -76,7 +76,8 @@
 
                   Stephen Lee, 
                   Jeremy Fischer,
-                  Shiran Yuan, Nicholas Jean
+                  Shiran Yuan, 
+                  Nicholas Jean
                   <br>
                   <br>
                   <a href="https://front-row-squad.github.io/final/">project page</a> /
@@ -85,12 +86,67 @@
                   <p>
                     A water simulation created using Unity. Implemented features include realistic waves,
                     buoyancy, and lighting effects, all running in real-time. I implemented the lighting effects
-                    using custom Unity shaders.
+                    using custom Unity shaders, which included reflections, refractions, caustics, and water fog.
                   </p>
                 </td>
               </tr>
 
-              <!-- End of publications -->
+              <!-- Volumetric -->
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="/img/volumetric.png" width="160">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://stephenlee129.github.io/volumetric-ray-marching/">
+                    <papertitle>Optimizing Ray-Marching using CUDA for Volumetric Rendering</papertitle>
+                  </a>
+                  <br>
+
+                  Stephen Lee, 
+                  Jeremy Fischer,
+                  Samuel Sovi
+                  <br>
+                  <br>
+                  <a href="https://stephenlee129.github.io/volumetric-ray-marching/">project page</a>
+                  <p></p>
+                  <p>
+                    Extension of a ray-tracer to handle participating media (translucent materials). Implemented a ray-marching algorithm to physically simulate lighting effects for these materials, and bounding volume hierarchies (BVH) to provide significant speedup. I primarily worked on optimizations including the work on BVH and memory management.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Wildfire -->
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="/img/wildfire.png" width="160">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/anthonymansur/CIS565-Final-Project">
+                    <papertitle>Simulating Wildfire Spread Using Physically Accurate Models</papertitle>
+                  </a>
+                  <br>
+
+                  Stephen Lee, 
+                  Anthony Mansur,
+                  Lindsay Smith
+                  <br>
+                  <br>
+                  <a href="https://github.com/anthonymansur/CIS565-Final-Project">project page</a> /
+                  <a href="https://github.com/anthonymansur/CIS565-Final-Project">code</a>
+                  <p></p>
+                  <p>
+                    Inspired by <a href="https://computationalsciences.org/publications/haedrich-2021-wildfires.html"> this work </a> we created a wildfire simulation of our own using C++/CUDA to leverage parallelization on the GPU and OpenGL to render our scenes. I primarily worked on the physics-based fluid solver that enabled our physically accurate model by solving the Navier-Stokes equations.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- End of projects -->
 
             </tbody>
           </table>
@@ -99,7 +155,7 @@
             <tbody>
               <tr>
                 <td>
-                  <heading>Experience</heading>
+                  <h2>Experience</h2>
                 </td>
               </tr>
             </tbody>
@@ -134,7 +190,7 @@
                     <strong>Head Teaching Assistant</strong> | <i>2021–2022</i>
                     <br />
                     Introduction to Computer Systems, University of Pennsylvania
-                    <li>Managed a team of 10 TAs for ~150-200 students each semester</li>
+                    <li>Managed a team of 10 TAs for ~100-150 students each semester</li>
                   </p>
                 </td>
               </tr>
